@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="mytest">
+        <classes>
+            <class name="WEBUI.Browsers">
+            <methods>
+                <include name="OpenChrome"></include>
+            </methods>
+            </class>
+           <class name="WEBUI.Signupandlogin">
+               <methods>
+                   <include name="Login"></include>
+               </methods>
+           </class>
+            <class name="WEBUI.Addproduct">
+                <methods>
+                    <include name="Addmonitor"></include>
+                    <include name="Addphone"></include>
+                    <include name="Addlaptop"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

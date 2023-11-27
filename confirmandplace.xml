@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cart">
+    <test name="displayproduct">
+        <classes>
+            <class name="WEBUI.Browsers">
+                <methods>
+                    <include name="OpenChrome"></include>
+                </methods>
+            </class>
+
+            <class name="WEBUI.Signupandlogin">
+                <methods>
+                    <include name="Login"></include>
+                </methods>
+            </class>
+
+            <class name="WEBUI.Cart">
+                <methods>
+                    <include name="DisplayCart"></include>
+                    <include name="confirmandplace"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
