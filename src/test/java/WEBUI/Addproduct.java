@@ -8,6 +8,7 @@ to the cart in "demoblaze.com" website. this ui automation follows page object m
 the web elements and user interactions are stored and performed in a separate class "Demoblazeobjects".
 
 note- I purposefully used thread.sleep() being aware of fact that it pauses script execution to observe interactions on webpage as this is my first website to automate.
+i have also used explicit waits wherever its necessary.
 */
 public class Addproduct extends Browsers{
     @Test(priority = 2)
