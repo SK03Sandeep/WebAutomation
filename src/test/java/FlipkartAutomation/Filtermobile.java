@@ -11,7 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 /*
-
+This testcase searches for mobiles in flipkart website, filters the results by applying filters-->ram-8gb and above,customer rating- above 4,brands-oneplus and samsung and
+Prints the mobiles models along with their price.
  */
 public class Filtermobile{
     public static void main(String[]args) throws InterruptedException {
