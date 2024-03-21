@@ -9,6 +9,7 @@ public class Flipkartpom {
     By searchbox = By.xpath("//input[@name='q']");  // flipkart searchbox
     By searchbtn= By.xpath("//button[@type='submit']"); //flipkart search glass
     By cancelloginbtn= By.xpath("/html/body/div[3]/div/span"); //flipkart cancel login icon
+
     By filterbrandsearchbox= By.xpath("//input[@placeholder='Search Brand']"); // brand filter search box
 
     By filterbrand=By.xpath("//div[text()='Brand']"); //filter brand label
@@ -21,5 +22,8 @@ public class Flipkartpom {
 
     By oneplus= By.xpath("//div[@title='OnePlus']"); // oneplus checkbox
     By samsung= By.xpath("//div[@title='SAMSUNG']"); // samsung checkbox
+
+    By cartcount= By.xpath("//div[@class='KK-o3G']");
+    By cartButton= By.xpath("//ul[@class='row']/li[1]");
 
 }
